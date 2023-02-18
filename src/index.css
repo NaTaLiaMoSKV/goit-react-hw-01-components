@@ -7,6 +7,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #e6e6e6;
 }
 
 code {
@@ -16,4 +17,19 @@ code {
 
 .elem {
   color: steelblue;
+}
+
+img {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h2, h1, p, li, ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
 }
